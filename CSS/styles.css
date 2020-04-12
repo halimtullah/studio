@@ -1,0 +1,143 @@
+html, body {
+    height: 100%;
+    width: 100%;
+
+}
+.welcome {
+    background-image: url(/image.jpg/h_img.jpg);
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: relative;
+}
+.padding {
+    padding-bottom: 2em;
+}
+.welcome-content {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    bottom: 50%;
+}
+.welcome-content p {
+    text-transform: uppercase;
+}
+.mouse-click {
+   position: absolute;
+   transform: translate(-50%);
+   left: 50%;
+   bottom: 0%;
+}
+.services {
+   background-image: url(/image.jpg/s_image.jpg);
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.services-content {
+    padding-top: 6em;
+    padding-bottom: 6em;
+}
+.portfolio image {
+    width: 100%;
+}
+.contact {
+    background-image: url(/image.jpg/c_image.jpg);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+}
+.contact-content {
+   padding-top: 3em;
+   padding-bottom: 3em; 
+}
+.form-control {
+    background-color: transparent;
+    margin-bottom: 1em;
+}
+.form-control ::placeholder {
+    opacity: 1;
+    color: white;
+}
+.social image {
+width: 100%;
+}
+.social a:hover {
+    opacity: 0.6em;
+}
+.design,
+.dev,
+.p-mgt{
+    cursor: pointer;
+}
+#design-content-show,
+#dev-content-show,
+#p-mgt-content-show {
+  display: none;
+  padding-left: 5%;
+  padding-right: 5%;  
+}
+.design image :hover,
+.dev image :hover,
+.p-mgt image :hover {
+    opacity: 0.8;
+}
+.work1,
+.work2,
+.work3,
+.work4,
+.work5,
+.work6,
+.work7,
+.work8{
+    position: relative;
+}
+.title-1,
+.title-2,
+.title-3,
+.title-4,
+.title-5,
+.title-6,
+.title-7,
+.title-8 {
+    position: absolute;
+    color: white;
+    top: 10%;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    border: white;
+    padding: 5%;
+    text-align: left;
+    display: none;
+}
+.portfolio h4{
+    font-weight: 600;
+    font-size: x-large;
+}
+.dark-bg1,
+.dark-bg2,
+.dark-bg3,
+.dark-bg4,
+.dark-bg5,
+.dark-bg6,
+.dark-bg7,
+.dark-bg8 {
+    position: absolute;
+    left: 0em;
+    right: 0em;
+    top: 0em;
+    bottom: 0em;
+    background-color: black;
+    opacity: 0.5;
+    display: none;
+}
+.emptyFields {
+    color: yellow;
+    display: none;
+    font-size: large;
+}
