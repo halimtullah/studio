@@ -141,3 +141,27 @@ width: 100%;
     display: none;
     font-size: large;
 }
+.receptionConfirm{
+    color: white;
+    font-size: large;
+    display: none;
+}
+#myForm input {
+   color: white;
+   background-color: transparent;
+}
+#myForm textarea {
+    color: white;
+    background-color: transparent;
+}
+@media (max-width:576px){
+    .welcome-content h1 {
+      font-size: 2em;
+    }
+    .welcome-content p{
+        font-size: small;
+    }
+
+}
+
+
