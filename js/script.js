@@ -30,3 +30,25 @@ $(document).ready(function(){
         validate(name,email,message);
 
     });
+    });
+
+function hoverEffect(portfolioNum){
+    $(".work"+portfolioNum).hover(function(){
+        $(".title-"+portfolioNum).show();
+        $(".dark-bg"+portfolioNum).show();
+    },function(){
+        $(".title-"+portfolioNum).show();
+        $(".dark-bg"+portfolioNum).show();
+    });
+function validate(name, email, message){
+    if(name==="" || email==="" || message===""){
+        $(".receiptConfirm").hide();
+        $(".emptyFirld").show();
+        return false;
+    }
+    else{
+        $(".emptyFields").hide();
+        $(".receiptConfirm").show();
+        $(".nameConfirm").text(name);
+        $("#myForm").trigger("reset");
+        return true;
