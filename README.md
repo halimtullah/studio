@@ -19,6 +19,6 @@ None.
 ## Support and contact details
 Incase of any issue kindly email issackhalima@gmail.com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+
 Copyright (c) {year} **Halima Isack**
   
