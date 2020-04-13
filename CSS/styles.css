@@ -31,7 +31,7 @@ html, body {
    bottom: 0%;
 }
 .services {
-   background-image: url(/image.jpg/s_image.jpg);
+   background-image: url(s_image.jpg);
   color: white;
   background-size: cover;
   background-position: center;
