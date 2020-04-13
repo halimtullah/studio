@@ -18,7 +18,7 @@ None.
 * BOOTSTRAP
 ## Support and contact details
 Incase of any issue kindly email issackhalima@gmail.com
-### License
 
-Copyright (c) {year} **Halima Isack**
+<a href="https://github.com/halimtullah/studio/blob/master/LICENSE">LICENSE</a><br>
+Copyright (c) 2020 <br>**Halima Isack**
   
